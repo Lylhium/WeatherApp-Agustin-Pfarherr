@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container{
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+div.card{
+text-align: center;
+}
+
+img.img-background {
+  flex: 1 1 60%;
+  width: 35%;
+  padding: 50px 100px ;
+  float: left;
+  background-color: #eca58b;
+  transition: 0.4s;
+}
+div.background-icon{
+    background-color: #a3705f;
+    padding-left: 530px;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+img.icon-url{
+    width: 80px;
+}
+h1.weather-name{
+    background-color: #f0a48a;
+    color: white;   
+}
+.weather-date{
+    background-color: #bf816d;
+    color: white;
+}
+.weather-ask{
+    color: #bb806c;
+}
+.weather-info{
+    padding-top: 5px;
+    background-color: #a3705f;
+    color: white;
+    font-size: 18px;
+ 
+}
+div.weather-info div{
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+div.latitud-longitud{
+     background-color: #a3705f;
+     color: white;
+    font-size: 18px;
+}
+div.lat{
+    padding-bottom: 10px;
+}

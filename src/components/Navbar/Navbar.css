@@ -1,0 +1,76 @@
+nav{
+    position:relative;
+    background: #ef9273;
+    padding-top: 5px;
+    color: white;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background-color: rgb(160, 220, 200);
+    border-radius: 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    text-transform: uppercase;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.icon-url{
+    font-size: 35px;
+}
+
+button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #ef9273;
+    margin:0 0.3em 0.3em 0;
+    border-radius:5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    display: center;
+    font-size: 15px;
+    color:#ef9273;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    background-color: #fef9f8;
+}
+button:hover{
+    color:#fef9f8;
+    border:0.1em solid #ef9273;
+    background-color:#ef9273;
+            }
+
+ button.btn-nav {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #ef9273;
+    margin:0 0.3em 0.3em 0;
+    border-radius:15px;
+    box-sizing: border-box;
+    text-decoration:none;
+    display: center;
+    font-size: 20px;
+    color:#ef9273;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    background-color: #fef9f8;
+}           
+button.btn-nav:hover{
+    color:#fef9f8;
+    border:0.1em solid #fef9f8;
+    background-color:#ef9273;
+}
+
+
